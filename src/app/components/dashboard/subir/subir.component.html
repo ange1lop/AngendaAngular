@@ -1,0 +1,4 @@
+<form enctype="multipart/form-data" #formulario="ngForm" (ngSubmit)="subir()">
+  <input type="file" name="stringFoto" [(ngModel)]="model.stringFoto" multiple>
+  <button class="btn btn-primary" (click)="subir">subir</button>
+</form>
